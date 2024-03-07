@@ -1,0 +1,252 @@
+.content-desk{
+    max-width:  100%;
+    height: 8rem;
+    margin:     auto;
+    background-color: #121212;
+    color: white;
+    display: flex;
+}
+
+/**Menu Lista**/
+
+.content-desk .menu-bar-desk{
+    width: 50%;
+}
+
+.content-desk nav .user-blog{
+    width: 3rem;
+    height:  3rem;
+    position: relative;
+    bottom:  .5rem;
+    cursor: pointer;
+}
+
+.content-desk nav .user-blog img{
+    width: 2.5rem;
+    height:  2.5rem;
+   
+}
+
+.content-desk nav .menu-list{
+    display: flex;
+    list-style: none;
+    padding: 3rem 0rem;
+    justify-content: space-evenly;
+}
+
+a{
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+li:hover a {
+    transition: 0.4s ;
+    color: white;
+}
+
+/**SOCIAL BAR**/
+
+.content-desk .social-bar{
+    width: 50%;
+    height: 30%;
+    float: right;
+    margin: 2.2rem 0rem 2.2rem  5.2rem;
+}
+
+.content-desk .social-bar svg{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    float: right;
+}
+
+.content-desk .social-bar a svg:hover path{
+    fill: #fafafa;
+}
+
+/* Logo */
+
+.name-logo{
+    width: 100%;
+    height: 80vh;
+    background-color: #121212;
+}
+
+.name-logo hr{
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.name-logo h1{
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    cursor: pointer;
+    padding: 7rem;
+}
+
+
+
+
+
+/* MENU MOBI */
+
+.content-mobile{
+    max-width:  100%;
+    height: 8rem;
+    margin:     auto;
+    background-color: #121212;
+    color: white;
+    display: none;
+}
+
+/**Menu Lista**/
+
+.menu-bar-mobi{
+    width: 50%;
+    height: 100vh;
+    z-index: 999;
+    display: none;
+}
+
+
+
+.name-logo nav .menu-list{
+    list-style: none;
+    padding: 30px 2%;
+    background-color: rgb(163, 162, 162);
+    z-index: 99999;
+    margin-left: 2.3rem;
+    text-align: center;
+    position: absolute;
+}
+
+.name-logo nav .menu-list li{
+    margin: 1rem 0rem;
+}
+
+
+a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.content-mobile li:hover a {
+    transition: 0.4s ;
+    color: rgb(27, 27, 27);
+}
+
+.content-mobile .hamburg-menu{
+    width: 2.5rem;
+    height: 2rem;
+    background-image: url('../../assets/mobi-menu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+
+/**SOCIAL BAR**/
+
+.content-mobile  .social-bar{
+    width: 50%;
+    height: 30%;
+    float: right;
+    margin: 2.2rem 0rem 2.2rem  5.2rem;
+}
+
+.content-mobile  .social-bar svg{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    float: right;
+}
+
+.content-mobile  .social-bar a svg:hover path{
+    fill: #fafafa;
+}
+
+
+/* Responsivo 768px */
+@media screen and (max-width: 884px) {
+    .content-desk{
+        display: none;
+    }
+
+    .content-mobile{
+        max-width:  100%;
+        height: 8rem;
+        margin:     auto;
+        background-color: #121212;
+        color: white;
+        display: flex;
+    }
+
+    .name-logo{
+        width: 100%;
+        height: 60vh;
+        min-height: 700px;
+        background-color: #121212;
+    }
+    
+    .name-logo hr{
+        color: white;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    
+    .name-logo h1{
+        color: white;
+        font-size: 6rem;
+        text-align: center;
+        cursor: pointer;
+        margin: 6rem;
+    }
+
+
+}
+
+@media screen and (max-width: 428px){
+    .content-mobile .social-bar{
+        width: 100%;
+        height: 30%;
+        margin: 1rem 1rem;
+        justify-content: space-between;
+    }
+
+    .name-logo{
+        width: 100%;
+        height: 30vh;
+        min-height: 500px;
+        background-color: #121212;
+    }
+
+
+    .name-logo nav .menu-list{
+        list-style: none;
+        padding: 30px 2%;
+        background-color: rgb(163, 162, 162);
+        z-index: 99999;
+        margin: 0 auto;
+        text-align: center;
+        position: absolute;
+    }
+
+    .name-logo h1{
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-left: -1rem;
+    }
+
+
+
+}
+
