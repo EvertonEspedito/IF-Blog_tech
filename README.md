@@ -8,7 +8,7 @@
 
 ## Visitar Site  :
 
-[Site]([https://angular.io/start](https://iftechsertao.netlify.app/))
+[Site](https://angular.io/start](https://iftechsertao.netlify.app/))
 
 ## Feito com  :
 
